@@ -74,7 +74,7 @@ export const products = [
   },
   {
     id: 6,
-    img: "/assets/1.jpg",
+    img: "/assets/6.jpg",
     rating: 5,
     kaspi: "https://kaspi.kz/shop/p/table-tree-90x90x76-belyi-107346485/?c=750000000#!/item",
     name: 'Обеденный стол Table tree, 90x90x76, белый',
@@ -90,39 +90,52 @@ export const products = [
   },
   {
     id: 7,
-    img: "/assets/1.jpg",
-    rating: 0,
-    kaspi: "",
-    name: '',
+    img: "/assets/7.jpg",
+    rating: 5,
+    kaspi: "https://kaspi.kz/shop/p/ala-case-dlja-iphone-11-prozrachnyi-103661424/?c=750000000#!/item",
+    name: 'Чехол Ala case для iPhone 11 прозрачный',
     price: 0,
-    description: ''
+    description: `тип: спортивный
+    совместимый бренд: Apple
+    материал: резина, ,силикон`
   },
   {
     id: 8,
-    img: "/assets/1.jpg",
-    rating: 0,
-    kaspi: "",
-    name: '',
+    img: "/assets/8.jpg",
+    rating: 5,
+    kaspi: "https://kaspi.kz/shop/p/g-case-dlja-apple-iphone-7-prozrachnyi-104325672/?c=750000000#!/item",
+    name: 'Чехол G-Case для Apple IPhone 7 прозрачный',
     price: 0,
-    description: ''
+    description: `тип: накладка
+    совместимый бренд: Apple
+    материал: силикон`
   },
   {
     id: 9,
-    img: "/assets/1.jpg",
-    rating: 0,
-    kaspi: "",
-    name: '',
+    img: "/assets/9.jpg",
+    rating: 5,
+    kaspi: "https://kaspi.kz/shop/p/oem-dlja-iphone-12-pro-max-prozrachnyi-105740107/?c=750000000#!/item",
+    name: 'Чехол OEM для iPhone 12 Pro Max прозрачный',
     price: 0,
-    description: ''
+    description: `тип: накладка противоударная
+    совместимый бренд: Apple
+    материал: силикон`
   },
   {
     id: 10,
-    img: "/assets/1.jpg",
-    rating: 0,
-    kaspi: "",
-    name: '',
+    img: "/assets/10.jpg",
+    rating: 5,
+    kaspi: "https://kaspi.kz/shop/p/matras-v-dom-i-sad-002-80x200x10-sm-chehol-tik-106577484/?c=750000000#!/item",
+    name: 'Матрас В Дом и Сад 002, 80x200x10 см, чехол тик',
     price: 0,
-    description: ''
+    description: `тип: матрас
+    жесткость стороны 1: средняя
+    пружинный блок: беспружинный
+    наполнитель: вата
+    материал чехла: тик
+    ортопедический: Нет
+    цвет: белый, ,красный
+    страна: Казахстан`
   }
   
 ];
