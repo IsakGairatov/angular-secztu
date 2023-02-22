@@ -1,0 +1,30 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+  <img src="https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h74/hd6/62011388952606/odealo-mirman-ode150x210-150x205-sm-teploe-103207956-1.jpg">
+  <h3>
+    <a [title]="product.name + ' details'" 
+    [routerLink]="['/products', product.id]">{{ product.name }}
+    </a>
+  </h3>
+
+  <p *ngIf="product.description">
+    Discription: {{product.description}} <br>
+    Rated: {{product.rating}}/5
+  </p>
+
+  <button type="button" (click)="share()">
+    Share
+  </button>
+  <button type="button">
+  Buy
+</button>
+ 
+
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
