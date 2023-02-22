@@ -1,7 +1,7 @@
 <h2>Products</h2>
 
 <div *ngFor="let product of products">
-  <img src="https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h74/hd6/62011388952606/odealo-mirman-ode150x210-150x205-sm-teploe-103207956-1.jpg">
+  <img src="{{product.img}}" width="200">
   <h3>
     <a [title]="product.name + ' details'" 
     [routerLink]="['/products', product.id]">{{ product.name }}
