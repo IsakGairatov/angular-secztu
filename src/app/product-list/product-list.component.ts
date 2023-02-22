@@ -11,9 +11,8 @@ export class ProductListComponent {
   products = products;
 
   share() {
-    window.alert('The product has been shared!');
-  }
-
+    window.open("https://telegram.me/share/url?url=' + product") 
+    }
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
